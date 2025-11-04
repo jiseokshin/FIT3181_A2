@@ -1,0 +1,5 @@
+import gensim.downloader as api
+from gensim.models import Word2Vec
+
+# List available pretrained models
+print(list(api.info()["models"].keys())[:10])
